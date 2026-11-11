@@ -1,0 +1,13 @@
+[project]
+name = "msmailmover"
+version = "0.1.0"
+description = "Move Microsoft 365 mail between folders with Microsoft Graph"
+readme = "README.md"
+authors = [
+    { name = "Jonas Rathert", email = "jrt@gmx.de" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "msal>=1.39.0",
+    "requests>=2.34.2",
+]
